@@ -1,0 +1,18 @@
+Metodos HTTP:
+- GET: Buscar/listar informacao no backend
+- POST: Criar informacao no backend
+- PUT: alterar informacao no backend
+- DELETE: deletar informacao no backend
+
+Tipos de parametros:
+- Query Params: Parametros nomeados enviados na rota apos "?" (Filtros, paginacao)
+- Route Params: Parametros utilizados para idenntificar recursos
+- Request Body: 
+
+Banco de Dados:
+- SQL: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server
+- NoSQL: MongoDB, CouchDB, etc
+
+Opcoes de interacao com o Banco de Dados:
+- Driver: SELECT * FROM users
+- Query Builder (ferramenta KNEX): table('users').select('*').where()
